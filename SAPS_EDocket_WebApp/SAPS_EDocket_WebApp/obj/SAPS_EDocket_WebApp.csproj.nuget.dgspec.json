@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Docket filing system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj": {}
+    "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Docket filing system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj": {
+    "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Docket filing system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj",
         "projectName": "SAPS_EDocket_WebApp",
-        "projectPath": "C:\\Docket filing system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj",
-        "packagesPath": "C:\\Users\\makem\\.nuget\\packages\\",
-        "outputPath": "C:\\Docket filing system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\obj\\",
+        "projectPath": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj",
+        "packagesPath": "C:\\Users\\bokam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\makem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\bokam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
