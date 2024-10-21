@@ -8,11 +8,16 @@
     "net8.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\bokam\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\zekhe\\.nuget\\packages\\": {}
+>>>>>>> origin
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj",
       "projectName": "SAPS_EDocket_WebApp",
       "projectPath": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bokam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\zekhe\\Downloads\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj",
+      "projectName": "SAPS_EDocket_WebApp",
+      "projectPath": "C:\\Users\\zekhe\\Downloads\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp.csproj",
+      "packagesPath": "C:\\Users\\zekhe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zekhe\\Downloads\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\zekhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> origin
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
