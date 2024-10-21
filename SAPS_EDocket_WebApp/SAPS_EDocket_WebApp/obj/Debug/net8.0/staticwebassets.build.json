@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YQRdJaHmQgrrV0zAY0QIA6HC4fF3NVVUitYLa4qOmc4=",
+  "Hash": "hrBbE/9vNUkAsojG/doZpO7uQWP3OivwFQJiO4h7FP8=",
   "Source": "SAPS_EDocket_WebApp",
   "BasePath": "_content/SAPS_EDocket_WebApp",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SAPS_EDocket_WebApp.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\wwwroot\\css\\Dashboard.css",
+      "SourceId": "SAPS_EDocket_WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\wwwroot\\",
+      "BasePath": "_content/SAPS_EDocket_WebApp",
+      "RelativePath": "css/Dashboard.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Dashboard.css"
+    },
+    {
       "Identity": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\wwwroot\\css\\site.css",
       "SourceId": "SAPS_EDocket_WebApp",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\wwwroot\\js\\Dashboard.js",
+      "SourceId": "SAPS_EDocket_WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\wwwroot\\",
+      "BasePath": "_content/SAPS_EDocket_WebApp",
+      "RelativePath": "js/Dashboard.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Dashboard.js"
     },
     {
       "Identity": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\wwwroot\\js\\site.js",

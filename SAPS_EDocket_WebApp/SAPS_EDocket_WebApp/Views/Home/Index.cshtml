@@ -1,54 +1,60 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Dashboard Page";
 }
-<div class="login-container">
-    <div class="login-box">
-        <img src="#" alt="SAPS Logo" class="saps-logo" />
-       <h2>Login</h2>
-       <form id="loginForm">
-           <div class="input-group">
-               <label for="uniqueId">Unique ID</label>
-               <input type="text" id="uniqueId" name="uniqueId" required />
-           </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="~/css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>SAPS E-Docket</h2>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Create Case</a></li>
+                <li><a href="#">Manage Cases</a></li>
+                <li><a href="#">User Management</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </aside>
 
-            <div class="input-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required />
-            </div>
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header>
+                <h1>Welcome to the Dashboard</h1>
+            </header>
 
-            <div class="input-group">
-                <label for="showPassword">Show Password</label> <input type="checkbox" id="showPassword" />
-            </div>
-
-            <button type="submit" class="login-btn">Login</button>
-            <a href="#" class="forgot-password">Forgot Password</a>
-       </form>
+            <!-- Content Section -->
+            <section class="content">
+                <div class="stats">
+                    <div class="stat-card">
+                        <h3>Total Cases</h3>
+                        <p>150</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Pending Cases</h3>
+                        <p>50</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Closed Cases</h3>
+                        <p>100</p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
-</div>
 
-@section Scripts {
-    <script>
-        document.getElementById("showPassword").addEventListener("change", function () {
-            const passwordField = document.getElementById("password");
-            if (this.checked) {
-                passwordField.type = "text";
-            } else {
-                passwordField.type = "password";
-            }
-        });
+    <script src="~/js/dashboard.js"></script>
+</body>
+</html>
 
-        // Simple form validation (optional)
-        document.getElementById("loginForm").addEventListener("submit", function (event) {
-            event.preventDefault();
-            const uniqueId = document.getElementById("uniqueId").value;
-            const password = document.getElementById("password").value;
-
-            if (!uniqueId || !password) {
-                alert("Please fill in both fields");
-            } else {
-                // Proceed with form submission or AJAX request
-                alert("Login successful");
-            }
-        });
-    </script>
-}

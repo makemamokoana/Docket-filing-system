@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="login-container">
+    <div class="login-box">
+        <img src="#" alt="SAPS Logo" class="saps-logo" />
+       <h2>Login</h2>
+       <form id="loginForm">
+           <div class="input-group">
+               <label for="uniqueId">Unique ID</label>
+               <input type="text" id="uniqueId" name="uniqueId" required />
+           </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required />
+            </div>
+
+            <div class="input-group">
+                <label for="showPassword">Show Password</label> <input type="checkbox" id="showPassword" />
+            </div>
+
+            <button type="submit" class="login-btn">Login</button>
+            <a href="#" class="forgot-password">Forgot Password</a>
+       </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById("showPassword").addEventListener("change", function () {
+            const passwordField = document.getElementById("password");
+            if (this.checked) {
+                passwordField.type = "text";
+            } else {
+                passwordField.type = "password";
+            }
+        });
+
+        // Simple form validation (optional)
+        document.getElementById("loginForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            const uniqueId = document.getElementById("uniqueId").value;
+            const password = document.getElementById("password").value;
+
+            if (!uniqueId || !password) {
+                alert("Please fill in both fields");
+            } else {
+                // Proceed with form submission or AJAX request
+                alert("Login successful");
+            }
+        });
+    </script>
+}
