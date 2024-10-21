@@ -2,8 +2,59 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-    ViewData["Title"] = "Dashboard";
+    ViewData["Title"] = "Dashboard Page";
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="~/css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>SAPS E-Docket</h2>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Create Case</a></li>
+                <li><a href="#">Manage Cases</a></li>
+                <li><a href="#">User Management</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </aside>
 
-<h2>Welcome to the Dashboard</h2>
-<p>This is the dashboard page.</p>
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header>
+                <h1>Welcome to the Dashboard</h1>
+            </header>
+
+            <!-- Content Section -->
+            <section class="content">
+                <div class="stats">
+                    <div class="stat-card">
+                        <h3>Total Cases</h3>
+                        <p>150</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Pending Cases</h3>
+                        <p>50</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Closed Cases</h3>
+                        <p>100</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="~/js/dashboard.js"></script>
+</body>
+</html>
+
