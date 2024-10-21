@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hrBbE/9vNUkAsojG/doZpO7uQWP3OivwFQJiO4h7FP8=",
+  "Hash": "/Td+9j2Hql1IgcTfSH6kOWqvsKkqscsY2FxeX0Y0j3g=",
   "Source": "SAPS_EDocket_WebApp",
   "BasePath": "_content/SAPS_EDocket_WebApp",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\wwwroot\\NewFolder\\SAPS logo.png",
+      "SourceId": "SAPS_EDocket_WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bokam\\Downloads\\BokamosoRamadie\\Docket-filing-system\\SAPS_EDocket_WebApp\\SAPS_EDocket_WebApp\\wwwroot\\",
+      "BasePath": "_content/SAPS_EDocket_WebApp",
+      "RelativePath": "NewFolder/SAPS logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewFolder\\SAPS logo.png"
     }
   ]
 }
