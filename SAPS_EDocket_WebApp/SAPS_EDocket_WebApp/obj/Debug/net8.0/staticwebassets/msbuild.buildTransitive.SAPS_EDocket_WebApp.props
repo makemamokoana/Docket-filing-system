@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SAPS_EDocket_WebApp.props" />
+</Project>
