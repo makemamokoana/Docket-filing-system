@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SAPS_EDocket_WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1c9ac5afa309921d59b2882d08148c518b3952e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1261f3553b0e6f0be9576b2ed8ff5c7826374d5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SAPS_EDocket_WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SAPS_EDocket_WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
